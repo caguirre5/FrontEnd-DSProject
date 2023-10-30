@@ -107,21 +107,11 @@ function App() {
                   <input
                     type="radio"
                     name="selectedModelType"
-                    value="CNN"
-                    checked={selectedModelType === 'CNN'}
+                    value="BERT"
+                    checked={selectedModelType === 'BERT'}
                     onChange={handleClaimTypeChange}
                   />
-                  CNN
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="selectedModelType"
-                    value="GPT"
-                    checked={selectedModelType === 'GPT'}
-                    onChange={handleClaimTypeChange}
-                  />
-                  GPT
+                  BERT
                 </label>
             </div>
             </div>
