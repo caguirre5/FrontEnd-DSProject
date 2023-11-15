@@ -92,28 +92,6 @@ function App() {
                   <option value="Concluding Statement">Concluding Statement</option>
               </select>
             </div>
-            <div className='modeltype-container'>
-                <label>
-                  <input
-                    type="radio"
-                    name="selectedModelType"
-                    value="RNN"
-                    checked={selectedModelType === 'RNN'}
-                    onChange={handleClaimTypeChange}
-                  />
-                  RNN
-                </label>
-                <label>
-                  <input
-                    type="radio"
-                    name="selectedModelType"
-                    value="BERT"
-                    checked={selectedModelType === 'BERT'}
-                    onChange={handleClaimTypeChange}
-                  />
-                  BERT
-                </label>
-            </div>
             </div>
             <button className='evaluate-button' type="submit">Evaluate</button>
           </form>
